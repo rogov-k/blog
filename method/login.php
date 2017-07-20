@@ -15,4 +15,4 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
         $_SESSION['user']['type'] = $user['type'];
     }
 }
-header('location: /blog');
+header('location: /');

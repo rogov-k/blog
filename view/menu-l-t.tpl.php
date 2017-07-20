@@ -18,7 +18,7 @@
         <div class="menu-logo"></div>
     </div>
     <div class="menu-items">
-        <a href="/blog" class="menu-item">Blog</a>
+        <a href="/" class="menu-item">Blog</a>
         <a href="/write" class="menu-item">Write</a>
         <a href="/logout" class="menu-item">Logout</a>
     </div>

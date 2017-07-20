@@ -10,10 +10,7 @@ require 'method/main.php';
 require 'method/connect_db.php';
 $url = explode('?', $_SERVER['REQUEST_URI']);
 switch ($url[0]) {
-  case '':
-    require 'index.php';
-    break;
-  case '/blog':
+  case '/':
     require 'view/header.tpl.php';
     require 'blog.php';
     require 'view/footer.tpl.php';
