@@ -20,7 +20,7 @@
 </div>
 <div id="fon"></div>
 <div id="login-form">
-    <form method="post" action="a/method/login.php">
+    <form method="post" action="/login">
         <div class="form-body">
             <input type="text" placeholder="Имя" name="login" autocomplete="off">
             <input type="password" placeholder="Пароль" name="password" autocomplete="off">

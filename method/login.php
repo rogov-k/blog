@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('connect_db.php');
+require 'connect_db.php';
 if (isset($_POST['login']) && isset($_POST['password'])) {
     $login = $_POST['login'];
     $password = md5($_POST['password']);

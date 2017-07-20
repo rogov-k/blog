@@ -11,7 +11,7 @@
         <div class="post-header">
             <div class="post-header-user">
                 <div class="post-user-img">
-                    <img src="source/user/<?php echo $post['img']; ?>">
+                    <img src="/source/user/<?php echo $post['img']; ?>">
                 </div>
                 <div class="post-user-name"><?php echo $post['name']; ?></div>
                 <div class="post-date"><?php echo $post['date']; ?></div>

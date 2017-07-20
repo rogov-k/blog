@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
-    include('connect_db.php');
-    include('main.php');
+    require 'connect_db.php';
+    require 'main.php';
     if (isset($_POST['text'])) {
         $text = $_POST['text'];
         $text = str_replace("<", "&lt;", $text);

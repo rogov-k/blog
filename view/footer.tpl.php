@@ -5,7 +5,7 @@
     var page = <?php echo isset($pages) ? $pages : 0; ?>;
     var countPage = <?php echo isset($count) ? $count : 0; ?>;
 </script>
-<script src="a/js/jquery.min.js"></script>
-<script src="a/js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

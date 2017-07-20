@@ -1,10 +1,11 @@
-function send() {
+function
+send() {
     var text = $('#text-input').val();
     $('#text-input').val('');
     if (text != "") {
         $.ajax({
             type: "POST",
-            url: "../a/method/ajax_write.php",
+            url: "../method/ajax_write.php",
             data: {"text": text},
             cache: false,
             success: function (response) {
@@ -61,7 +62,7 @@ $('body').on('click', '.delete', function () {
     var r = $(this).closest('.wrap-post');
     $.ajax({
         type: "POST",
-        url: "../a/method/ajax_delete.php",
+        url: "../method/ajax_delete.php",
         data: {
             "delete": t
         },
@@ -81,7 +82,7 @@ $(window).scroll(function () {
         $.ajax({
             type: "POST",
             cache: false,
-            url: '../a/method/ajax_page.php',
+            url: '../method/ajax_page.php',
             data: {
                 "page": page
             },
@@ -122,11 +123,10 @@ $('form.form-input-post').submit(function () {
     data.text = form[0]['value'];
     data.csrf = form[1]['value'];
     data.subject = form[2]['value'];
-    console.log(data);
     $.ajax({
         type: "POST",
         cache: false,
-        url: '../a/method/prepare_post.php',
+        url: '../method/prepare_post.php',
         data: {
             "text": form[0]['value'],
             "csrf": form[1]['value'],

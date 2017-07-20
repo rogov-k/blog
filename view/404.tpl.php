@@ -6,7 +6,7 @@
     <style>
         @font-face {
             font-family: "Plumb";
-            src: url('a/font/NotoSans-Regular.ttf') format('truetype');
+            src: url('../font/NotoSans-Regular.ttf') format('truetype');
         }
 
         .body {

@@ -43,7 +43,7 @@ function getPost($post)
     $post['date'] = $date;
 
     ob_start();
-    include($_SERVER['DOCUMENT_ROOT'] . '/a/view/post.tpl.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/view/post.tpl.php');
     $post = ob_get_contents();
     ob_end_clean();
     return $post;
