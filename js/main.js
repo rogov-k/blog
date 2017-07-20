@@ -87,7 +87,7 @@ $(window).scroll(function () {
                 "page": page
             },
             success: function (data) {
-                var redirect = '/blog?page=' + page;
+                var redirect = '?page=' + page;
                 history.pushState('', '', redirect);
                 $('.content').append(data);
             }
