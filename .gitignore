@@ -1,1 +1,3 @@
 .idea
+dump.sql
+method/connect_db.php
